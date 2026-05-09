@@ -10,7 +10,7 @@
     <priority>1.0</priority>
 
     <image:image>
-      <image:loc>https://pine-coast-house.vercel.app/hero-image.png</image:loc>
+      <image:loc>https://pine-coast-house.vercel.app/hero-image.webp</image:loc>
       <image:title>Pine Coast House</image:title>
       <image:caption>Modern Scandinavian coastal forest retreat near the Baltic Sea</image:caption>
     </image:image>
