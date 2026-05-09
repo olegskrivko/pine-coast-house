@@ -1,8 +1,6 @@
 User-agent: *
 Allow: /
 
-# AI Crawlers
-
 User-agent: GPTBot
 Allow: /
 
@@ -38,7 +36,5 @@ Allow: /
 
 User-agent: Applebot
 Allow: /
-
-# Sitemap
 
 Sitemap: https://pine-coast-house.vercel.app/sitemap.xml
