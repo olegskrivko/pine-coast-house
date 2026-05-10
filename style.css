@@ -1223,7 +1223,22 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   text-align: center;   
   margin-top: 16px;   /* optional spacing */
 }
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: #172554;
+  white-space: nowrap;
+}
+
+.nav-logo-icon {
+  font-size: 24px;
+  color: var(--secondary);
+}
 
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 1024px) {
@@ -1239,6 +1254,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 @media (max-width: 768px) {
   .nav-inner               { padding: 20px 32px; }
   .nav-links-desktop       { display: none; }
+  .nav-reserve-btn         { display: none; }
 
   .hero-title              { font-size: 48px; }
   .hero-subtitle           { font-size: 20px; }

@@ -1,7 +1,6 @@
 # Pine Coast House
 
-> Architect-designed coastal holiday house in Staldzene, Kurzeme, Latvia — surrounded by pine forest and wild Baltic Sea coastline near Ventspils. Sleeps up to 6 guests. From €245 per night. Approximately 3 hours from Riga and 15–20 minutes from central Ventspils.
-
+> Architect-designed coastal holiday house in Staldzene, Kurzeme, Latvia — surrounded by pine forest and wild Baltic Sea coastline near Ventspils. Features a private Nordic sauna, fireplace, and peaceful forest setting. Sleeps up to 6 guests. From €245 per night. Approximately 3 hours from Riga and 15–20 minutes from central Ventspils.
 ## About
 
 Pine Coast House is a modern Scandinavian-style retreat built from sustainable local timber on Latvia’s western Baltic coast. Located in the quiet coastal village of Staldzene near Ventspils, the house is surrounded by pine forest, dunes, and nature trails within walking distance of the sea.
@@ -46,6 +45,7 @@ Inspired by Nordic minimalism and the work of Latvian-American modernist archite
   - Natural light
   - Forest views
   - Fireplace
+  - Private Nordic sauna
   - Private terrace
 - Check-in: 15:00
 - Check-out: 11:00
@@ -61,6 +61,7 @@ Inspired by Nordic minimalism and the work of Latvian-American modernist archite
 - Quiet pine forest surroundings
 - Walking access to Baltic Sea beach
 - Nearby hiking, cycling, SUP, and birdwatching
+- Traditional Nordic sauna
 
 ## Pricing
 
@@ -86,33 +87,44 @@ Inspired by Nordic minimalism and the work of Latvian-American modernist archite
 
 ### Where is Pine Coast House located?
 
-Pine Coast House is located in Staldzene near Ventspils on Latvia’s western Baltic Sea coast.
+Pine Coast House is located in Staldzene near Ventspils on Latvia’s western Baltic Sea coast. The house is surrounded by pine forest, Baltic Sea dunes, and peaceful coastal nature.
 
 ### How far is the beach?
 
-The Baltic Sea beach is within walking distance through coastal pine forest and dunes.
+The Baltic Sea beach is within walking distance through pine forest and dunes, typically around 5–10 minutes on foot. Nearby beaches in Ventspils are recognised with Blue Flag certification for excellent water quality, safety, and environmental standards.
 
-### How far is Ventspils?
+### Where can I buy groceries and essentials?
 
-Approximately 15–20 minutes by car.
+The nearest supermarkets, grocery stores, pharmacies, and everyday services are located in Ventspils, approximately 15–20 minutes away by car. The house also includes essential kitchen equipment and basic long-stay supplies.
 
-### How far is Riga?
+### How far is Pine Coast House from Riga?
 
-Approximately 3 hours by car.
+Pine Coast House is approximately a 3-hour scenic drive from Riga, located on Latvia’s western Baltic coast near Ventspils.
 
-### How many guests can stay?
+### Is the area private and quiet?
 
-Up to 6 guests.
-
-### Are pets allowed?
-
-Yes.
+Yes. Pine Coast House is located in a quiet forest area with the nearest neighbouring properties around 500 metres away, offering a peaceful and private atmosphere. The nearby beach is public, so occasional visitors may pass through the coastline area during daytime hours.
 
 ### What activities are nearby?
 
-Hiking, beach walks, cycling, birdwatching, SUP rentals, boating, nature photography, stargazing, and coastal sightseeing.
+Guests can enjoy forest walks, beach walks, cycling, birdwatching, boating, SUP rentals, coastal sightseeing, and nature photography. Popular nearby attractions include Staldzenes Stāvkrasts cliffs, Būšnieku Lake Nature Area, Staldzene Waterfall, and House of Lavender Ventspils.
 
+### How many guests can stay?
+
+Pine Coast House comfortably accommodates up to 6 guests.
+
+### Are pets allowed?
+
+Yes — pets are welcome at Pine Coast House. The property includes pet-friendly amenities such as dog sleeping areas, toys, and a dedicated indoor climbing and resting space for cats.
+
+### What type of stay is Pine Coast House best suited for?
+
+Pine Coast House is designed for slow coastal living, peaceful nature escapes, and quiet evenings surrounded by forest and sea. It is ideal for romantic getaways, relaxing family stays, creative retreats, and guests looking to reconnect with nature along Latvia’s Baltic coast.
 ## Booking
+
+### Does Pine Coast House have a sauna?
+
+Yes — Pine Coast House includes a private Nordic-style sauna designed for relaxing after beach walks, forest hikes, and colder Baltic evenings.
 
 Website:
 https://pine-coast-house.vercel.app/
