@@ -921,7 +921,113 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   margin-top: 16px;
   font-style: italic;
 }
+/* ── POI Section ───────────────────────────────────────── */
+.poi-section {
+  padding: var(--section-padding) 0;
+  background: var(--surface-container-lowest);
+}
 
+.poi-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.poi-header {
+  text-align: center;
+  max-width: 720px;
+  margin-bottom: 64px;
+}
+
+.poi-title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+.poi-subtitle {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--on-surface-variant);
+}
+
+/* List layout */
+.poi-list {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Item card */
+.poi-item {
+  background: #ffffff;
+  border: 1px solid #f0ede9;
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.poi-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* Title row */
+.poi-item strong {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+/* Distance badge */
+.poi-item span {
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+/* Description */
+.poi-item p {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--on-surface-variant);
+}
+
+/* ── Responsive ───────────────────────────────────────── */
+@media (max-width: 768px) {
+  .poi-list {
+    grid-template-columns: 1fr;
+  }
+
+  .poi-title {
+    font-size: 36px;
+  }
+}
 /* Price breakdown */
 .booking-breakdown {
   margin-top: 32px;
