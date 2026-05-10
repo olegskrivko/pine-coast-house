@@ -222,6 +222,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(135deg, #0b1b14, #0e2a22);
 }
 
 .hero-img {
