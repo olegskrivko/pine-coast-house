@@ -3,34 +3,171 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pine Coast House - Seaside Holiday Retreat in Latvia</title>
+
+  <title>Pine Coast House — Seaside Holiday House near Baltic Sea, Latvia</title>
   <meta name="description" content="A peaceful coastal holiday house in Latvia surrounded by pine forest and the Baltic Sea. Perfect for a quiet nature escape.">
-  <!-- SEO / Social -->
-  <meta property="og:title"       content="Pine Coast House">
-  <meta property="og:description" content="A peaceful coastal retreat in Latvia surrounded by pine forest and the Baltic Sea.">
-  <meta property="og:image"       content="https://pine-coast-house.vercel.app/hero-image.webp">
-  <meta property="og:type"        content="website">
+  <meta name="keywords" content="holiday house Latvia, Baltic Sea rental, Kurzeme coastal retreat, pine forest cabin Latvia, seaside holiday rental Latvia, vacation house near Riga"/>
+  <meta name="author" content="Pine Coast House"/>
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+
+  <!-- ── Canonical ─────────────────────────────────────────── -->
+  <link rel="canonical" href="https://pine-coast-house.vercel.app/"/>
+
+  <!-- ── Open Graph ────────────────────────────────────────── -->
+  <meta property="og:type"        content="website"/>
+  <meta property="og:site_name"   content="Pine Coast House"/>
+  <meta property="og:locale"      content="en_GB"/>
+  <meta property="og:url"         content="https://pine-coast-house.vercel.app/"/>
+  <meta property="og:title"       content="Pine Coast House — Seaside Holiday Retreat near Baltic Sea, Latvia"/>
+  <meta property="og:description" content="Architect-designed coastal retreat in a Latvian pine forest, 300 m from the Baltic Sea. Up to 6 guests. From €245/night."/>
+  <meta property="og:image"       content="https://pine-coast-house.vercel.app/hero-image.webp"/>
+  <meta property="og:image:width"  content="1920"/>
+  <meta property="og:image:height" content="1080"/>
+  <meta property="og:image:alt"   content="Modern wooden holiday cabin on the Baltic Sea dunes at golden hour"/>
+
+  <!-- ── Twitter / X Cards ─────────────────────────────────── -->
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       content="Pine Coast House — Seaside Holiday Retreat, Latvia"/>
+  <meta name="twitter:description" content="Architect-designed pine forest cabin 300 m from the Baltic Sea. Up to 6 guests. From €245/night."/>
+  <meta name="twitter:image"       content="https://pine-coast-house.vercel.app/hero-image.webp"/>
+  <meta name="twitter:image:alt"   content="Pine Coast House exterior at sunset"/>
+
+
+    <!-- ── Theme & PWA ───────────────────────────────────────── -->
+  <meta name="theme-color" content="#00172c"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="Pine Coast"/>
+  <link rel="manifest" href="/manifest.json"/>
+
+  <!-- ── Favicons ──────────────────────────────────────────── -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+  
+  <!-- ── Verification ─────────────────────────────────────── -->
   <meta name="google-site-verification" content="4eLMNXFFYyW8376veJXyPcVplFktiV7u8lqxH1XHteA" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- ── Performance: DNS prefetch ─────────────────────────── -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+  <link rel="dns-prefetch" href="https://lh3.googleusercontent.com"/>
+
+  <!-- ── Fonts ─────────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- ── LCP Hero Image Preload ────────────────────────────── -->
+  <link rel="preload" as="image" href="/hero-image.webp" fetchpriority="high"/>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/style.css"/>
 
   <!-- Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    "name": "Pine Coast House",
-    "description": "Luxury coastal retreat in Latvia near the Baltic Sea",
-    "priceRange": "€245/night"
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://pine-coast-house.vercel.app/#website",
+      "name": "Pine Coast House",
+      "url": "https://pine-coast-house.vercel.app/"
+    },
+
+    {
+      "@type": "Hotel",
+      "@id": "https://pine-coast-house.vercel.app/#hotel",
+      "name": "Pine Coast House",
+      "description": "A Scandinavian-style coastal holiday house in Staldzene near Ventspils, Latvia. Surrounded by pine forest and Baltic Sea dunes, designed for peaceful nature stays.",
+      "url": "https://pine-coast-house.vercel.app/",
+      "telephone": "+371 2977 8899",
+
+      "image": "https://pine-coast-house.vercel.app/hero-image.webp",
+
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Staldzene",
+        "addressRegion": "Kurzeme",
+        "addressCountry": "LV"
+      },
+
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 57.439688,
+        "longitude": 21.600686
+      },
+
+      "checkinTime": "15:00",
+      "checkoutTime": "11:00",
+      "petsAllowed": true,
+      "maximumAttendeeCapacity": 6,
+
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Parking", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Pet Friendly", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Fireplace", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Forest Access", "value": true }
+      ],
+
+      "priceRange": "€245 - €295",
+      "currenciesAccepted": "EUR",
+
+      "founder": {
+        "@type": "Person",
+        "name": "Olegs"
+      },
+
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "reservations",
+        "telephone": "+371 2977 8899",
+        "availableLanguage": ["en", "lv"]
+      },
+
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.98",
+        "reviewCount": "42",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "EUR",
+        "lowPrice": "245",
+        "highPrice": "295",
+        "availability": "https://schema.org/InStock",
+        "url": "https://pine-coast-house.vercel.app/#booking"
+      },
+
+      "sameAs": [
+        "https://pine-coast-house.vercel.app/"
+      ]
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://pine-coast-house.vercel.app/#webpage",
+      "url": "https://pine-coast-house.vercel.app/",
+      "name": "Pine Coast House — Coastal Stay in Latvia",
+      "isPartOf": {
+        "@id": "https://pine-coast-house.vercel.app/#website"
+      },
+      "about": {
+        "@id": "https://pine-coast-house.vercel.app/#hotel"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+
 </head>
 
 <body>
@@ -58,6 +195,11 @@
       class="hero-img"
       src="/hero-image.webp"
       alt="Modern wooden holiday cabin in pine forest near Baltic Sea"
+            width="1920"
+        height="1080"
+              fetchpriority="high"
+        loading="eager"
+        decoding="sync"
     />
     <div class="hero-content">
       <h1 class="hero-title text-shadow-subtle">
@@ -78,7 +220,7 @@
         <span class="material-symbols-outlined overview-icon">location_on</span>
         <div class="overview-item-content">
           <span class="overview-label">Location</span>
-          <span class="overview-value">Latvia</span>
+          <span class="overview-value">Latvia, Kurzeme</span>
         </div>
       </div>
 
@@ -257,7 +399,7 @@
         <div class="location-stats-grid">
           <div>
             <h5 class="location-stat-title">Distance from Sea</h5>
-            <p class="location-stat-value">300 meters (5 min walk)</p>
+            <p class="location-stat-value">200 meters (5 min walk)</p>
           </div>
           <div>
             <h5 class="location-stat-title">Local Attraction</h5>
@@ -297,7 +439,7 @@
           </div>
           <div>
             <span class="booking-dist-label">Distance to Sea</span>
-            <span class="booking-dist-value">300 Meters</span>
+            <span class="booking-dist-value">200 Meters</span>
           </div>
         </div>
       </div>
@@ -373,23 +515,154 @@
     </div>
   </section>
 
-  <!-- ── Footer ─────────────────────────────────────────── -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-logo">PINE COAST HOUSE</div>
-      <nav>
-        <div class="footer-links">
-          <a class="footer-link" href="#">Sustainability</a>
-          <a class="footer-link" href="#">Privacy Policy</a>
-          <a class="footer-link" href="#">Terms</a>
-          <a class="footer-link" href="#">Contact</a>
-        </div>
-      </nav>
-      <div class="footer-copy">
-        © PINE COAST HOUSE. EMBRACING THE BALTIC CALM.
-      </div>
+
+
+<!-- ── FAQ Section ────────────────────────────────────── -->
+<section class="faq-section" id="faq" aria-labelledby="faq-heading">
+  <div class="faq-inner">
+
+    <div class="faq-header">
+      <span class="faq-eyebrow">Have Questions?</span>
+      <h2 class="faq-title" id="faq-heading">Frequently Asked Questions</h2>
+      <p class="faq-subtitle">
+        Everything you need to know before your stay at Pine Coast House.
+      </p>
     </div>
-  </footer>
+
+    <div class="faq-grid">
+
+      <details class="faq-item">
+        <summary class="faq-question">Where is Pine Coast House located?</summary>
+        <div class="faq-answer">
+          <p>
+            Pine Coast House is located in Staldzene, near Ventspils on Latvia’s western Baltic Sea coast.
+            It is surrounded by pine forest, dunes, and quiet coastal nature.
+          </p>
+        </div>
+      </details>
+
+<details class="faq-item">
+  <summary class="faq-question">How far is the beach?</summary>
+  <div class="faq-answer">
+    <p>
+      The Baltic Sea beach is within walking distance through pine forest and dunes, typically a 5–10 minute walk.
+      The nearby Ventspils coastline includes Blue Flag beaches, a certification awarded for excellent water quality, safety, and environmental standards.
+    </p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">Where can I buy groceries and essentials?</summary>
+  <div class="faq-answer">
+    <p>
+      The nearest grocery stores, supermarkets, and pharmacies are located in Ventspils, approximately 15–20 minutes by car.
+      The house is also equipped with basic long-stay essentials and kitchen supplies for comfortable stays.
+    </p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">How far is it from Riga?</summary>
+  <div class="faq-answer">
+    <p>
+      Pine Coast House is approximately a 3-hour scenic drive from Riga by car, heading toward Latvia’s western coast near Ventspils.
+    </p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">Is the area private and quiet?</summary>
+  <div class="faq-answer">
+    <p>
+      Yes — Pine Coast House is located in a quiet pine forest area with the nearest neighbors approximately 500 metres away.
+      It offers a high level of privacy, and guests are rarely disturbed.
+      The surrounding nature is peaceful and secluded.
+      The nearby beach area is public, so it is possible that other visitors may walk along the shoreline, especially during the day.
+    </p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">What can I do nearby?</summary>
+  <div class="faq-answer">
+    <p>
+      Nearby activities include exploring Staldzenes Stāvkrasts coastal cliffs, walking or cycling around Būšnieku Lake,
+      visiting birdwatching towers, SUP and boat rentals, and seasonal stops like House of Lavender Ventspils.
+      Guests also enjoy forest walks, quiet beaches, and Baltic Sea sunsets.
+    </p>
+  </div>
+</details>
+
+      <details class="faq-item">
+        <summary class="faq-question">How many guests can stay?</summary>
+        <div class="faq-answer">
+          <p>
+            Up to 6 guests can stay comfortably at Pine Coast House.
+          </p>
+        </div>
+      </details>
+
+<details class="faq-item">
+  <summary class="faq-question">Are pets allowed?</summary>
+  <div class="faq-answer">
+    <p>
+      Yes — pets are welcome at Pine Coast House. We provide basic pet-friendly amenities, including sleeping areas for dogs and toys for comfort.
+      For cats, there is a dedicated indoor climbing and resting space designed for enrichment and relaxation.
+    </p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">What is the best type of stay?</summary>
+  <div class="faq-answer">
+    <p>
+      Pine Coast House is made for slow mornings, long coastal walks, and evenings filled with golden light over the sea.
+      It’s a place to reconnect with nature — whether you’re watching sunsets through pine trees, taking scenic photos along the dunes,
+      or simply enjoying the quiet rhythm of the forest.
+      Perfect for romantic getaways, peaceful family stays, or anyone looking to slow down and breathe deeply by the Baltic coast.
+    </p>
+  </div>
+</details>
+
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+<footer class="footer" itemscope itemtype="https://schema.org/LodgingBusiness">
+  <div class="footer-inner">
+
+    <div class="footer-logo" itemprop="name">
+      PINE COAST HOUSE
+    </div>
+
+
+   <div class="footer-contact" itemscope itemtype="https://schema.org/LodgingBusiness">
+  <span itemprop="name">Pine Coast House</span>
+  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <p><strong>Address:</strong> 
+      <span itemprop="streetAddress">Piejūras iela 12</span>, 
+      <span itemprop="addressLocality">Kolkasrags</span>, 
+      <span itemprop="addressRegion">Kurzeme</span>, 
+      <span itemprop="addressCountry">Latvia</span>
+    </p>
+  </div>
+  <p><strong>Email:</strong> <span itemprop="email">stay@pinecoasthouse.lv</span></p>
+  <p><strong>Phone:</strong> <span itemprop="telephone">+371 29 000 000</span></p>
+  <meta itemprop="geo" content="57.753, 22.582" />
+</div>
+
+
+    <div class="footer-copy">
+      © Pine Coast House. Embracing the Baltic calm.
+    </div>
+
+  </div>
+</footer>
+
+
 
 </body>
 </html>

@@ -1,0 +1,42 @@
+{
+  "name": "Pine Coast House",
+  "short_name": "Pine Coast",
+  "description": "Architect-designed Scandinavian-style coastal holiday house in Staldzene, Kurzeme, Latvia — surrounded by pine forest and Baltic Sea dunes near Ventspils. Sleeps up to 6 guests. Pet-friendly. From €245/night.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#00172c",
+  "theme_color": "#00172c",
+  "lang": "en",
+  "scope": "/",
+  "categories": ["travel", "lifestyle"],
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/hero-image.webp",
+      "sizes": "1920x1080",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Pine Coast House — Baltic Sea coastal retreat"
+    }
+  ]
+}

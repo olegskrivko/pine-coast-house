@@ -949,6 +949,116 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   color: var(--primary);
   padding-top: 16px;
 }
+/* ── FAQ Section ─────────────────────────────────────────── */
+.faq-section {
+  padding: var(--section-padding) 0;
+  background: var(--surface-container-lowest);
+}
+
+.faq-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.faq-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.faq-eyebrow {
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--secondary);
+  display: block;
+  margin-bottom: 16px;
+}
+
+.faq-title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+.faq-subtitle {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--on-surface-variant);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Grid */
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* FAQ Item */
+.faq-item {
+  background: #ffffff;
+  border: 1px solid var(--surface-container-high);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.faq-item:hover {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+/* Question */
+.faq-question {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-right: 24px;
+}
+
+/* remove default marker */
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+/* arrow */
+.faq-question::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--secondary);
+  font-weight: 400;
+  transition: transform 0.2s;
+}
+
+/* open state */
+.faq-item[open] .faq-question::after {
+  content: "–";
+}
+
+/* Answer */
+.faq-answer {
+  margin-top: 16px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--on-surface-variant);
+}
 
 /* ── Footer ────────────────────────────────────────────────── */
 .footer {
@@ -999,13 +1109,16 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 }
 
 .footer-copy {
+  width: 100%;        /* ⬅ forces new line */
   font-family: var(--font-display);
   font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #a8a29e;
-  text-align: right;
+  text-align: center;   
+  margin-top: 16px;   /* optional spacing */
 }
+
 
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 1024px) {
