@@ -12,31 +12,31 @@
   "categories": ["travel", "lifestyle"],
   "icons": [
     {
-      "src": "/public/apple-touch-icon.png",
+      "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/public/favicon-32.png",
+      "src": "/favicon-32.png",
       "sizes": "32x32",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/public/favicon-16.png",
+      "src": "/favicon-16.png",
       "sizes": "16x16",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/public/web-app-manifest-192x192.png",
+      "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/public/web-app-manifest-512x512.png",
+      "src": "/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -44,7 +44,7 @@
   ],
   "screenshots": [
     {
-      "src": "/public/hero-image.webp",
+      "src": "/hero-image.webp",
       "sizes": "1920x1080",
       "type": "image/webp",
       "form_factor": "wide",
