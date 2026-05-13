@@ -1307,7 +1307,13 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   text-decoration: underline;
   opacity: 1;
 }
-
+.footer-note {
+  width: 100%;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  text-align: center;
+}
 .footer-copy {
   width: 100%;        /* ⬅ forces new line */
   font-family: var(--font-display);
