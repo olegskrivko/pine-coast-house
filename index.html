@@ -138,8 +138,24 @@
       "containsPlace": {
         "@type": "Accommodation",
         "name": "Pine Coast House accommodation",
+        "additionalType": "https://schema.org/House",
+        "numberOfBedrooms": 3,
+        "numberOfBathroomsTotal": 1,
+        "bed": [
+          {
+            "@type": "BedDetails",
+            "typeOfBed": "Double bed",
+            "numberOfBeds": 2
+          },
+          {
+            "@type": "BedDetails",
+            "typeOfBed": "Sofa bed",
+            "numberOfBeds": 1
+          }
+        ],
         "occupancy": {
           "@type": "QuantitativeValue",
+          "value": 6,
           "maxValue": 6
         },
         "amenityFeature": [
@@ -159,13 +175,28 @@
       "checkoutTime": "11:00",
       "priceRange": "€245–€295",
       "currenciesAccepted": "EUR",
-      "makesOffer": {
-        "@type": "Offer",
-        "priceCurrency": "EUR",
-        "price": "245",
-        "availability": "https://schema.org/InStock",
-        "url": "https://pine-coast-house.vercel.app/#booking"
+     "makesOffer": {
+      "@type": "Offer",
+      "identifier": "pine-coast-house-nightly-offer",
+      "url": "https://pine-coast-house.vercel.app/#booking",
+      "availability": "https://schema.org/InStock",
+      "itemOffered": {
+        "@type": "LodgingBusiness",
+        "name": "Pine Coast House",
+        "checkinTime": "15:00",
+        "checkoutTime": "11:00"
       },
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 245,
+        "priceCurrency": "EUR",
+        "unitText": "night"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Staldzene"
+      }
+    },
       "areaServed": [
         "Staldzene",
         "Ventspils",
