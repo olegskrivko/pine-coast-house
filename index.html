@@ -46,7 +46,15 @@
   <!-- ── Verification ─────────────────────────────────────── -->
   <meta name="google-site-verification" content="4eLMNXFFYyW8376veJXyPcVplFktiV7u8lqxH1XHteA" />
   <!-- ── LCP Hero Image Preload ────────────────────────────── -->
-  <link rel="preload" as="image" href="/hero-image.webp" fetchpriority="high"/>
+  <!-- <link rel="preload" as="image" href="/hero-image.webp" fetchpriority="high"/> -->
+  <link
+  rel="preload"
+  as="image"
+  href="/hero-768.webp"
+  imagesrcset="/hero-480.webp 480w, /hero-768.webp 768w, /hero-1200.webp 1200w, /hero-image.webp 1920w"
+  imagesizes="100vw"
+  fetchpriority="high"
+/>
   <!-- ── Performance: DNS prefetch ─────────────────────────── -->
   <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
   <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
@@ -307,7 +315,7 @@
   <!-- ── Hero ───────────────────────────────────────────── -->
   <header class="hero">
     <div class="hero-overlay"></div>
-    <img
+    <!-- <img
       class="hero-img"
       src="/hero-image.webp"
       alt="Modern wooden holiday cabin in pine forest near Baltic Sea"
@@ -316,7 +324,24 @@
               fetchpriority="high"
         loading="eager"
         decoding="sync"
-    />
+    /> -->
+     <img
+    class="hero-img"
+    src="/hero-768.webp"
+    srcset="
+      /hero-480.webp 480w,
+      /hero-768.webp 768w,
+      /hero-1200.webp 1200w,
+      /hero-image.webp 1920w
+    "
+    sizes="100vw"
+    alt="Modern wooden holiday cabin in pine forest near Baltic Sea"
+    width="1920"
+    height="1080"
+    fetchpriority="high"
+    loading="eager"
+    decoding="async"
+  />
     <div class="hero-content">
       <h1 class="hero-title text-shadow-subtle">
         Pine Coast House
