@@ -1114,7 +1114,34 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   line-height: 1.6;
   color: var(--on-surface-variant);
 }
+.map-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
 
+.map-section {
+  background-color: var(--on-primary);
+
+}
+.map-title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+
+.map-subtitle {
+  margin: 0 auto;
+  max-width: 720px;
+  opacity: 0.75;
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--on-surface-variant);
+}
 /* ── Responsive ───────────────────────────────────────── */
 @media (max-width: 768px) {
   .poi-list {

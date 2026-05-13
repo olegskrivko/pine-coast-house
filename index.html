@@ -17,43 +17,31 @@
   <meta property="og:title" content="Pine Coast House | Seaside Holiday House in Staldzene near Ventspils">
   <meta property="og:description" content="Private seaside holiday house near Ventspils, Latvia, 200 m from the Baltic Sea beach. Sauna, terrace, pine forest, parking, pet-friendly, up to 6 guests.">
   <meta property="og:image" content="https://pine-coast-house.vercel.app/hero-image.webp">
-  <meta property="og:image:width" content="1920">
-  <meta property="og:image:height" content="1080">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
   <meta property="og:image:alt" content="Pine Coast House seaside holiday house in pine forest near Staldzene and the Baltic Sea">
-
+  
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Pine Coast House | Seaside Holiday House near Ventspils">
   <meta name="twitter:description" content="Seaside holiday house in Staldzene, near Ventspils. 200 m from the Baltic Sea, with sauna, terrace, parking, and pet-friendly stays.">
   <meta name="twitter:image" content="https://pine-coast-house.vercel.app/hero-image.webp">
   <meta name="twitter:image:alt" content="Pine Coast House near the Baltic Sea coast in Staldzene">
-
-    <!-- ── Theme & PWA ───────────────────────────────────────── -->
+  <!-- ── Theme & PWA ───────────────────────────────────────── -->
   <meta name="theme-color" content="#00172c"/>
   <meta name="mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
   <meta name="apple-mobile-web-app-title" content="Pine Coast"/>
   <link rel="manifest" href="/manifest.json"/>
-
   <!-- ── Favicons ──────────────────────────────────────────── -->
-  <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/> -->
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-  
   <!-- ── Verification ─────────────────────────────────────── -->
   <meta name="google-site-verification" content="4eLMNXFFYyW8376veJXyPcVplFktiV7u8lqxH1XHteA" />
   <!-- ── LCP Hero Image Preload ────────────────────────────── -->
-  <!-- <link rel="preload" as="image" href="/hero-image.webp" fetchpriority="high"/> -->
-  <link
-  rel="preload"
-  as="image"
-  href="/hero-768.webp"
-  imagesrcset="/hero-480.webp 480w, /hero-768.webp 768w, /hero-1200.webp 1200w, /hero-image.webp 1920w"
-  imagesizes="100vw"
-  fetchpriority="high"
+  <link rel="preload" as="image" href="/hero-768.webp" imagesrcset="/hero-480.webp 480w, /hero-768.webp 768w, /hero-1200.webp 1200w, /hero-image.webp 1536w" imagesizes="100vw" fetchpriority="high"
 />
   <!-- ── Performance: DNS prefetch ─────────────────────────── -->
   <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
@@ -98,9 +86,8 @@
 </style>
 
 
-  <!-- Stylesheet -->
-  <!-- <link rel="stylesheet" href="/style.css"/> -->
-   <link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/style.css"></noscript>
 
   <!-- Structured Data -->
@@ -281,7 +268,6 @@
   ]
 }
 </script>
-
 </head>
 
 <body>
@@ -289,11 +275,10 @@
   <!-- ── Navigation ─────────────────────────────────────── -->
   <nav class="nav">
     <div class="nav-inner">
-      <!-- <div class="nav-logo">PINE COAST HOUSE</div> -->
-<div class="nav-logo">
-  <span class="material-symbols-outlined nav-logo-icon">park</span>
-  <span>PINE COAST HOUSE</span>
-</div>
+    <div class="nav-logo">
+      <span class="material-symbols-outlined nav-logo-icon">park</span>
+      <span>PINE COAST HOUSE</span>
+    </div>
       <div class="nav-links-desktop">
         <a class="nav-link nav-link-active" href="#">The House</a>
         <a class="nav-link" href="#about">Experience</a>
@@ -493,7 +478,7 @@
           <div class="gallery-gradient"></div>
           <div class="gallery-caption">
             <span class="gallery-caption-label">Exterior</span>
-            <h4 class="gallery-caption-title">Architectural Landmark</h4>
+            <h4 class="gallery-caption-title">Scandinavian Coastal Design</h4>
           </div>
         </div>
 
@@ -520,7 +505,7 @@
 
 
   <!-- ── Location Dark Section ──────────────────────────── -->
-  <section class="location-dark-section" id="location">
+  <section class="location-dark-section">
     <div class="location-dark-inner">
 
       <div class="location-map-col">
@@ -747,7 +732,38 @@
 
   </div>
 </section>
+<!-- map -->
+<section class="map-section"  id="location" >
 
+  <!-- <div class="map-header">
+    <h2 class="map-title">Location & Nearby Area</h2>
+    <p class="map-subtitle">
+      Pine Coast House is located in Staldzene near Ventspils, surrounded by Baltic Sea dunes, pine forest, and coastal nature.
+    </p>
+  </div> -->
+
+     <div class="map-header">
+      <h2 class="map-title">Find Us</h2>
+      <p class="map-subtitle">
+        Pine Coast House is located in Staldzene near Ventspils, surrounded by Baltic Sea dunes, pine forest, and coastal nature.
+      </p>
+    </div>
+
+  
+
+  <iframe
+    class="map-embed"
+    title="Pine Coast House location"
+    src="https://www.google.com/maps?q=57.439688,21.600686&z=14&output=embed"
+    width="100%"
+    height="420"
+    style="border:0;"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen>
+  </iframe>
+
+</section>
 <!-- ── FAQ Section ────────────────────────────────────── -->
 <section class="faq-section" id="faq" aria-labelledby="faq-heading">
   <div class="faq-inner">
