@@ -771,8 +771,10 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 .booking-card-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 40px;
+  /* align-items: flex-end;
+  margin-bottom: 40px; */
+    align-items: center;
+  gap: 12px;
 }
 
 .booking-price-wrap { display: flex; align-items: baseline; gap: 4px; }
@@ -797,7 +799,8 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 .booking-rating {
   display: flex;
   align-items: center;
-  gap: 4px;
+  /* gap: 4px; */
+  gap: 6px;
 }
 
 .booking-rating-icon {
@@ -1282,7 +1285,21 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   .footer-links            { justify-content: center; }
   .footer-copy             { text-align: center; }
 }
+@media (max-width: 640px) {
+  .booking-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
+  .booking-rating {
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .booking-rating-text {
+    line-height: 1.35;
+  }
+}
 @media (max-width: 480px) {
   .amenities-grid          { grid-template-columns: 1fr; }
   .location-stats-grid     { grid-template-columns: 1fr; }
@@ -1290,3 +1307,4 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   .date-grid               { grid-template-columns: 1fr; }
   .date-field:first-child  { border-right: none; border-bottom: 1px solid #e7e5e4; }
 }
+
